@@ -90,7 +90,9 @@ Python Scripts
 
 . All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
 
-. All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_functio
+. All your functions (inside and outside a class) should have a documentation (
+
+  python3 -c 'print(__import__("my_module").my_functio
 
       n.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
 
@@ -100,37 +102,33 @@ Python Scripts
 Example Usage
 
 Interactive Mode
+================
 
 $ ./console.py
 
    (hbnb) help
 
-Documented commands (type help <topic>):
-========================================
-
-    EOF  help  quit
-
-     (hbnb) 
+     EOF  help  quit
 
       (hbnb) 
 
-      (hbnb) quit
+       (hbnb) 
 
-        $
+        (hbnb) quit
+    
+         $
 
 
 Non-Interactive Mode
+====================
 
 $ echo "help" | ./console.py
 
     (hbnb)
 
-Documented commands (type help <topic>):
-========================================
+   EOF  help  quit
 
-EOF  help  quit
-
-   (hbnb) 
+     (hbnb) 
 
      $
 
@@ -144,13 +142,9 @@ EOF  help  quit
 
            (hbnb)
 
-Documented commands (type help <topic>):
-========================================
+             EOF  help  quit
 
-  EOF  help  quit
+             (hbnb) 
 
-   (hbnb) 
-
-      $
+               $
       
-

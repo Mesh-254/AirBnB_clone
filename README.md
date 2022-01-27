@@ -3,6 +3,7 @@
 Airbnb Clone is a technical solution to entrepreneurs for launching their own rental marketplace platform faster into the market. It is equipped with essential features to run a marketplace where customers can share their properties and also goods easily.
 
 Command interpreter
+====
 
 . Create a new object (ex: a new User or a new Place)
 
@@ -32,7 +33,7 @@ Command interpreter
 # Requirements
 
 Python Scripts
-
+===
 . Allowed editors: vi, vim, emacs
 
 . All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
@@ -100,9 +101,9 @@ Python Scripts
 
 
 Example Usage
-
+============
 Interactive Mode
-================
+=====
 
 $ ./console.py
 
@@ -120,31 +121,37 @@ $ ./console.py
 
 
 Non-Interactive Mode
-====================
+====
 
-$ echo "help" | ./console.py
+ $ echo "help" | ./console.py
 
     (hbnb)
 
-   EOF  help  quit
+      EOF  help  quit
 
-     (hbnb) 
+       (hbnb) 
 
-     $
+        $
 
-       $ cat test_help
+          $ cat test_help
 
-        help
+           help
 
-         $
+           $
 
-          $ cat test_help | ./console.py
+            $ cat test_help | ./console.py
 
-           (hbnb)
+             (hbnb)
 
-             EOF  help  quit
+               EOF  help  quit
 
-             (hbnb) 
+               (hbnb) 
 
-               $
+                 $
+
+Authors
+
+Meaza Lemma - Meazalemma2020@gmail.com
+
+Meshack Mutune 
       

@@ -16,12 +16,17 @@ Command interpreter
 
 # Resources
 
-cmd module
-packages concept page
-uuid module
-datetime
-unittest module
-args/kwargs
+. cmd module
+
+. packages concept page
+
+. uuid module
+
+. datetime
+
+. unittest module
+
+. args/kwargs
 
 
 # Requirements
@@ -50,9 +55,9 @@ Python Scripts
 
 . All your functions (inside and outside a class) should have a documentation (
 
-  python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c
+            python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c
 
-  'print(__import__("my_module").MyClass.my_function.__doc__)')
+           'print(__import__("my_module").MyClass.my_function.__doc__)')
 
 . A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the leng   th of it will be verified).
 
@@ -87,7 +92,7 @@ Python Scripts
 
 . All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_functio
 
-   n.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+      n.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
 
 . We strongly encourage you to work together on test cases, so that you don’t miss any edge case
 
@@ -97,37 +102,55 @@ Example Usage
 Interactive Mode
 
 $ ./console.py
-(hbnb) help
+
+   (hbnb) help
 
 Documented commands (type help <topic>):
 ========================================
-EOF  help  quit
 
-(hbnb) 
-(hbnb) 
-(hbnb) quit
-$
+    EOF  help  quit
+
+     (hbnb) 
+
+      (hbnb) 
+
+      (hbnb) quit
+
+        $
 
 
 Non-Interactive Mode
 
 $ echo "help" | ./console.py
-(hbnb)
+
+    (hbnb)
 
 Documented commands (type help <topic>):
 ========================================
+
 EOF  help  quit
-(hbnb) 
-$
-$ cat test_help
-help
-$
-$ cat test_help | ./console.py
-(hbnb)
+
+   (hbnb) 
+
+     $
+
+       $ cat test_help
+
+        help
+
+         $
+
+          $ cat test_help | ./console.py
+
+           (hbnb)
 
 Documented commands (type help <topic>):
 ========================================
-EOF  help  quit
-(hbnb) 
-$
+
+  EOF  help  quit
+
+   (hbnb) 
+
+      $
+      
 

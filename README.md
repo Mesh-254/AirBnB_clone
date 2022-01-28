@@ -33,7 +33,7 @@ Command interpreter
 # Requirements
 
 Python Scripts
-=
+
 . Allowed editors: vi, vim, emacs
 
 . All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
@@ -93,9 +93,9 @@ Python Scripts
 
 . All your functions (inside and outside a class) should have a documentation
 
-   ( python3 -c 'print(__import__("my_module").my_functio n.__doc__)' and
+            ( python3 -c 'print(__import__("my_module").my_functio n.__doc__)' and
 
-   (python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+            (python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
 
 . We strongly encourage you to work together on test cases, so that you don’t miss any edge case
 
@@ -104,7 +104,8 @@ Python Scripts
  
 Interactive Mode
 
-  $ ./console.py
+
+$ ./console.py
 
    (hbnb) help
 
@@ -120,9 +121,9 @@ Interactive Mode
 
 
 Non-Interactive Mode
-====
 
-   $ echo "help" | ./console.py
+
+  $ echo "help" | ./console.py
 
     (hbnb)
 
@@ -150,7 +151,7 @@ Non-Interactive Mode
 
 Authors
 
-Meaza Lemma - Meazalemma2020@gmail.com ||GitHub
+Meaza Lemma - Meazalemma2020@gmail.com || GitHub
 
 Meshack Mutune GitHub
 

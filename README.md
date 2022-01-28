@@ -3,7 +3,7 @@
 Airbnb Clone is a technical solution to entrepreneurs for launching their own rental marketplace platform faster into the market. It is equipped with essential features to run a marketplace where customers can share their properties and also goods easily.
 
 Command interpreter
-====
+=
 
 . Create a new object (ex: a new User or a new Place)
 
@@ -33,7 +33,7 @@ Command interpreter
 # Requirements
 
 Python Scripts
-===
+=
 . Allowed editors: vi, vim, emacs
 
 . All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
@@ -91,21 +91,20 @@ Python Scripts
 
 . All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
 
-. All your functions (inside and outside a class) should have a documentation (
+. All your functions (inside and outside a class) should have a documentation
 
-  python3 -c 'print(__import__("my_module").my_functio
+   ( python3 -c 'print(__import__("my_module").my_functio n.__doc__)' and
 
-      n.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+   (python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
 
 . We strongly encourage you to work together on test cases, so that you don’t miss any edge case
 
 
-Example Usage
-============
+#  Usage
+ 
 Interactive Mode
-=====
 
-$ ./console.py
+  $ ./console.py
 
    (hbnb) help
 
@@ -123,7 +122,7 @@ $ ./console.py
 Non-Interactive Mode
 ====
 
- $ echo "help" | ./console.py
+   $ echo "help" | ./console.py
 
     (hbnb)
 
@@ -151,7 +150,8 @@ Non-Interactive Mode
 
 Authors
 
-Meaza Lemma - Meazalemma2020@gmail.com
+Meaza Lemma - Meazalemma2020@gmail.com ||GitHub
 
-Meshack Mutune 
+Meshack Mutune GitHub
+
       

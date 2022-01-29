@@ -104,9 +104,6 @@ Python Scripts
  
 Interactive Mode
 
-
-$ ./console.py
-
    (hbnb) help
 
      EOF  help  quit
@@ -121,9 +118,6 @@ $ ./console.py
 
 
 Non-Interactive Mode
-
-
-  $ echo "help" | ./console.py
 
     (hbnb)
 
@@ -151,8 +145,10 @@ Non-Interactive Mode
 
 Authors
 
-Meaza Lemma - Meazalemma2020@gmail.com || GitHub
+Meaza Lemma - Meazalemma2020@gmail.com || @MahiET
 
-Meshack Mutune GitHub
+Meshack Mutune  @Mesh-254
+
+
 
       

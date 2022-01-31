@@ -51,22 +51,32 @@ Interactive Mode
 
            (hbnb) quit
     
-              $
-
+          $
 
 $ ./console.py
-(hbnb) all MyModel
-** class doesn't exist **
-(hbnb) show BaseModel
-** instance id missing **
-(hbnb) show BaseModel My_First_Model
-** no instance found **
-(hbnb)  create BaseModel
-8b88194a-fd2c-4825-a7dd-bd24f013fd7c
-(hbnb) all BaseModel
-["[BaseModel] (0f96a2b4-8376-4f60-8b7f-f124e5696e45) {'id': '0f96a2b4-8376-4f60-8b7f-f124e5696e45', 'created_at': datetime.datetime(2022, 1, 31, 5, 15, 9, 934710), 'updated_at': datetime.datetime(2022, 1, 31, 5, 15, 9, 935025)}", "[BaseModel] (8b88194a-fd2c-4825-a7dd-bd24f013fd7c) {'id': '8b88194a-fd2c-4825-a7dd-bd24f013fd7c', 'created_at': datetime.datetime(2022, 1, 31, 5, 42, 20, 775402), 'updated_at': datetime.datetime(2022, 1, 31, 5, 42, 20, 775732)}"]
-(hbnb) all BaseModel
-["[BaseModel] (0f96a2b4-8376-4f60-8b7f-f124e5696e45) {'id': '0f96a2b4-8376-4f60-8b7f-f124e5696e45', 'created_at': datetime.datetime(2022, 1, 31, 5, 15, 9, 934710), 'updated_at': datetime.datetime(2022, 1, 31, 5, 15, 9, 935025)}", '[BaseModel] (8b88194a-fd2c-4825-a7dd-bd24f013fd7c) {\'id\': \'8b88194a-fd2c-4825-a7dd-bd24f013fd7c\', \'created_at\': datetime.datetime(2022, 1, 31, 5, 42, 20,775402), \'updated_at\': datetime.datetime(2022, 1, 31, 5, 42, 20, 775732), \'first_name\': \'"Betty"\'}']
+(hbnb) create BaseModel
+5dccfbf9-03a6-45f7-8a75-80094392bf97
+(hbnb) show BaseModel 5dccfbf9-03a6-45f7-8a75-80094392bf97
+[BaseModel] (5dccfbf9-03a6-45f7-8a75-80094392bf97) {'id': '5dccfbf9-03a6-45f7-8a75-80094392bf97', 'updated_at': datetime.datetime(2018, 6, 13, 23, 10, 13, 549740), 'created_at': datetime.datetime(2018, 6, 13, 23, 10, 13, 549699)}
+(hbnb) all
+[[BaseModel] (5dccfbf9-03a6-45f7-8a75-80094392bf97) {'id': '5dccfbf9-03a6-45f7-8a75-80094392bf97', 'updated_at': datetime.datetime(2018, 6, 13, 23, 10, 13, 549740), 'created_at': datetime.datetime(2018, 6, 13, 23, 10, 13, 549699)}]
+(hbnb) BaseModel.count
+1
+(hbnb) update BaseModel 5dccfbf9-03a6-45f7-8a75-80094392bf97 number 89
+(hbnb) show BaseModel 5dccfbf9-03a6-45f7-8a75-80094392bf97
+[BaseModel] (5dccfbf9-03a6-45f7-8a75-80094392bf97) {'number': '89', 'updated_at': datetime.datetime(2018, 6, 13, 23, 11, 51, 470426), 'created_at': datetime.datetime(2018, 6, 13, 23, 10, 13, 549699), 'id': '5dccfbf9-03a6-45f7-8a75-80094392bf97'}
+(hbnb) create User
+71e19890-6440-4ca9-9976-59ba61571f09
+(hbnb) all
+[[User] (71e19890-6440-4ca9-9976-59ba61571f09) {'id': '71e19890-6440-4ca9-9976-59ba61571f09', 'updated_at': datetime.datetime(2018, 6, 13, 23, 12, 39, 71568), 'created_at': datetime.datetime(2018, 6, 13, 23, 12, 39, 71532)}, [BaseModel] (5dccfbf9-03a6-45f7-8a75-80094392bf97) {'number': '89', 'updated_at': datetime.datetime(2018, 6, 13, 23, 11, 51, 470426), 'created_at': datetime.datetime(2018, 6, 13, 23, 10, 13, 549699), 'id': '5dccfbf9-03a6-45f7-8a75-80094392bf97'}]
+(hbnb) destroy User 71e19890-6440-4ca9-9976-59ba61571f09
+(hbnb) all
+[[BaseModel] (5dccfbf9-03a6-45f7-8a75-80094392bf97) {'number': '89', 'updated_at': datetime.datetime(2018, 6, 13, 23, 11, 51, 470426), 'created_at': datetime.datetime(2018, 6, 13, 23, 10, 13, 549699), 'id': '5dccfbf9-03a6-45f7-8a75-80094392bf97'}]
+(hbnb) destroy BaseModel 5dccfbf9-03a6-45f7-8a75-80094392bf97
+(hbnb) all
+[]
+(hbnb) quit
+$
 
 
 

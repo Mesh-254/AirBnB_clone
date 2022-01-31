@@ -17,7 +17,7 @@ Command interpreter
 
 # Resources
 
-. cmd module
+.  cmd module
 
 . packages concept page
 
@@ -35,13 +35,13 @@ Installation
 
 .  Open the /AirBnB_clone directory and execute console.py
 
-***Setup
+Setup
 
 .  You need Python interpreter. IMPORTANT: The project was created in UBUNTU  20.04  LTS and Python 3.9
 
 Interactive Mode
 
-   (hbnb) help
+  
 
       EOF  help  quit
 
@@ -80,14 +80,8 @@ Non-Interactive Mode
 
                  $
 
-
-**Authors
+Authors
 
 Meaza Lemma - Meazalemma2020@gmail.com || MahiET
 
 Meshack Mutune  @Mesh-254
-
-
-
-
-      

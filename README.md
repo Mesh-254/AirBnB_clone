@@ -106,15 +106,15 @@ Interactive Mode
 
    (hbnb) help
 
-     EOF  help  quit
+      EOF  help  quit
 
-      (hbnb) 
+        (hbnb) 
 
-       (hbnb) 
+          (hbnb) 
 
-        (hbnb) quit
+           (hbnb) quit
     
-         $
+              $
 
 
 Non-Interactive Mode
@@ -143,9 +143,9 @@ Non-Interactive Mode
 
                  $
 
-Authors
+  Authors
 
-Meaza Lemma - Meazalemma2020@gmail.com || @MahiET
+Meaza Lemma - Meazalemma2020@gmail.com || MahiET
 
 Meshack Mutune  @Mesh-254
 

@@ -1,12 +1,14 @@
-header {                                                          
-
-    background-color: white;                                           height: 70px;                                              
-    position: absolute;                                        
-    top: 0px; 
-    width: 100%;                                  
+header {
+    background-color: white;
+    height: 70px;
+    /*position: absolute;*/
+    /*top: 0;*/
+    width: 100%;
     border-bottom: 1px solid;
-    border-color: #CCCCCC
- }     
+    border-color: #CCCCCC;
+    display: flex;
+    align-items: center;
+}
 
 header div {
     margin-left: 20px;

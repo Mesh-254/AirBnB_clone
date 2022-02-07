@@ -1,0 +1,18 @@
+.filters
+{
+backgroudn-color: white;
+width: 100%;
+height: 70px;
+border: 1px solid  #DDDDDD;
+borser-radius: 4px;
+}
+
+filters.button{
+font-size: 18px;
+height: 48px;
+width: 20%
+border-radius: 4px;
+background-color: #FF5A5F;
+align-content: 30px;
+font-color: #FFFFFF;
+}
